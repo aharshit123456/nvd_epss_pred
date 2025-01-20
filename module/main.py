@@ -3,10 +3,10 @@ from transformers import AutoTokenizer , AutoModelForSequenceClassification
 # from tokenization_bitnet import BitnetTokenizer
 from tqdm import tqdm
 import torch
-from nvd_epss_pred.notebooks.module.data.data_prep import fetch_and_process_cve_data
-from nvd_epss_pred.notebooks.module.models.dataset import NVDDataset
-from nvd_epss_pred.notebooks.module.models.model import NVDRegressionModel, evaluate, train
-from nvd_epss_pred.notebooks.module.utils import freeze_model_layers
+from nvd_epss_pred.module.data.data_prep import fetch_and_process_cve_data
+from nvd_epss_pred.module.models.dataset import NVDDataset
+from nvd_epss_pred.module.models.model import NVDRegressionModel, evaluate, train
+from nvd_epss_pred.module.utils import freeze_model_layers
 
 
 

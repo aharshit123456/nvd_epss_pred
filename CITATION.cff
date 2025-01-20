@@ -1,0 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: NVD-EPSS Toolkit
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Harshit
+    family-names: Agarwal
+    email: aharshit123456@gmail.com
+    orcid: 'https://orcid.org/0009-0000-2173-1740'
+    affiliation: Kalinga Institute of Industrial Technology
+  - given-names: Pranav
+    family-names: Kumar
+    email: pranav.kumar7125@gmail.com
+    affiliation: Kalinga Institute of Industrial Technology
+    orcid: 'https://orcid.org/0009-0008-6139-5284'
+repository-code: 'https://github.com/aharshit123456/nvd_epss_pred'
+abstract: >-
+  This repository provides a comprehensive pipeline for
+  fine-tuning transformer-based models, such as DistilBERT,
+  GPT2, TinyLlama, Bitnet , etc., for predicting
+  exploitability scores from CVE descriptions and CVSS data.
+  It includes tools for downloading and processing CVE
+  datasets from NVD, handling textual and numerical
+  features, and training regression models for cybersecurity
+  analysis. The project emphasizes efficiency, with support
+  for gradient clipping, selective layer freezing, and
+  dynamic tokenizer-model alignment. Designed to assist
+  researchers and practitioners, it facilitates the
+  prediction of exploitability risks, helping enhance
+  vulnerability assessment workflows.
+keywords:
+  - Vulnerability Exploit Likelihood
+  - Transformer based Regression Model
+  - Cyber security
+commit: 439763d
+version: 0.0.1
+date-released: '2025-01-20'
